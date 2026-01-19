@@ -1,0 +1,69 @@
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# ===============================
+# Jupyter / Data Science
+# ===============================
+*.ipynb_checkpoints
+
+# ===============================
+# YOLO / ML Training Outputs
+# ===============================
+runs/
+Model/
+weights/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# ===============================
+# Datasets & Media (BLOCK ALL)
+# ===============================
+train/
+valid/
+test/
+data/
+datasets/
+labels.cache
+*.jpg
+*.jpeg
+*.png
+*.mp4
+*.avi
+*.mov
+
+# ===============================
+# Static folder 
+# ===============================
+static/
+bvg1 : https://drive.google.com/file/d/1Axw1JSr8rxnFzjLwONGUOzOHF7NjpAwN/view?usp=drive_link
+
+# ===============================
+# Logs & Temp
+# ===============================
+logs/
+*.log
+temp/
+tmp/
+
+# ===============================
+# OS Files
+# ===============================
+.DS_Store
+Thumbs.db
